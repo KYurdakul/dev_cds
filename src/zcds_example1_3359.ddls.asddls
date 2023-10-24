@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZCDS_VIEW1_3359'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #CHECK
+@AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Örnek CDS 1'
 define view ZCDS_EXAMPLE1_3359 as select from ekpo
 inner join ekko
